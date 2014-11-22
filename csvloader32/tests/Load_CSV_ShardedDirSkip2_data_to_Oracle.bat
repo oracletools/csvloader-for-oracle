@@ -1,4 +1,18 @@
 ::Load CSV_ShardedDirSkip2 data to Oracle
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::-w[--copy_vector] is "Data copy direction."
+::-o[--pool_size] is "Pool size."
+::-r[--num_of_shards] is "Number of shards."
+::-t[--field_term] is "Field terminator."
+::-I[--input_dir] is "Input CSV directory."
+::-k[--skip_rows] is "Header size. Number of rows to skip in input file."
+::-y[--shard_size_kb] is "Shard size in KBytes to estimate number of lines in input CSV file."
+::-g[--to_db] is "To Oracle database."
+::-a[--to_table] is "To Oracle table."
+::-e[--nls_date_format] is "nls_date_format for target."
+::-m[--nls_timestamp_format] is "nls_time_format for target."
+::-Z[--target_client_home] is "Path to Oracle client home bin dir."
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo y|csvloader32.exe ^
 -w csv2ora ^
 -o 3 ^
