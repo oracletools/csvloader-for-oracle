@@ -1,0 +1,16 @@
+11/21/2014 07:25:52 PM | csv2ora | INFO | Counting lines in input file...
+11/21/2014 07:25:52 PM | csv2ora | INFO | Done.
+11/21/2014 07:25:52 PM | csv2ora | INFO | Estimated line count: 71
+11/21/2014 07:25:52 PM | csv2ora | INFO | Skipping 2 first rows.
+11/21/2014 07:25:52 PM | csv2ora | INFO | Starting Thread-0
+11/21/2014 07:25:52 PM | csv2ora | INFO | Thread-0 processing Shard-0
+11/21/2014 07:25:52 PM | csv2ora | INFO | Loading data...
+11/21/2014 07:25:54 PM | csv2ora | INFO | SQL*Loader status =0
+11/21/2014 07:25:54 PM | csv2ora | INFO | Done.
+11/21/2014 07:25:54 PM | csv2ora | INFO | Thread-0 exit status 0
+11/21/2014 07:25:54 PM | csv2ora | INFO | Exiting Thread-0
+11/21/2014 07:25:54 PM | csv2ora | INFO | Shard-0/0:          70 rows
+11/21/2014 07:25:54 PM | csv2ora | INFO | TOTAL Bytes:        7270 Bytes
+11/21/2014 07:25:54 PM | csv2ora | INFO | TOTAL Rows:           70 Rows
+11/21/2014 07:25:54 PM | csv2ora | INFO | Done.
+11/21/2014 07:25:54 PM | csv2ora | INFO | Elapsed: 00:00:01

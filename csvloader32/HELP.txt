@@ -2,7 +2,7 @@
 ##csvloader32.exe -h 
 ##
 ----------------------------------------------------------------------
-CSV*Loader for Oracle (v1.23.5, beta, 2014/11/21 11:37:03) [32bit]
+CSV*Loader for Oracle (v1.23.5, beta, 2014/11/21 19:25:26) [32bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
