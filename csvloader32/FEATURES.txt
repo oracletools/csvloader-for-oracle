@@ -1,10 +1,8 @@
 ##
 ##csvloader32.exe -h FEAT 
 ##
----------------------------------------------------------------------- 
-# FreeUkraine # SaveUkraine # StopRussia # PutinKhuilo # TerroRussia
 ----------------------------------------------------------------------
-CSV*Loader for Oracle (v1.23.5, beta, 2014/11/24 00:29:53) [32bit]
+CSV*Loader for Oracle (v1.23.5, beta, 2014/11/22 00:44:39) [32bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
