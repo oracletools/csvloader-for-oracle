@@ -1,13 +1,14 @@
 
-c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe -w csv2ora -o 1 -r 1 -t "|" -I c:\Python27\csvloader_1237\test\v101\data\ora_data_dir -k 1 -y 1000 -g SCOTT/tiger2@orcl -a SCOTT.Persons_pipe_datetime_1 -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -Z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN"
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe -w csv2ora -o 1 -r 1 -t "|" -I c:\Python27\csvloader_1237\test\v101\data\ora_data_dir -k 1 -y 1000 -g SCOTT/tiger2@orcl -a SCOTT.Persons_pipe_datetime_1 -e "YYYY-MM-DD HH24.MI.SS" -m "YYYY-MM-DD HH24.MI.SS.FF2" -Z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN"
 csv2ora
 ----------------------------------------------------------------------
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-CSV*Loader for Oracle (v1.23.5, beta, 2014/11/26 22:51:04) [64bit]
+CSV*Loader for Oracle (v1.23.5, beta, 2014/11/27 15:10:54) [64bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
+ORA
 ####################
 Performing data load.
 
@@ -28,37 +29,37 @@ Are you sure you want to proceed?(y/n):
 Copy stats (1 threads, 3 shards):
 ############################################################
 
-2014-11-26 22:51:52,292 - csv2ora - INFO - Counting lines in input file...
-2014-11-26 22:51:52,292 - csv2ora - INFO - Done.
-2014-11-26 22:51:52,292 - csv2ora - INFO - Estimated line count: 1565
-2014-11-26 22:51:52,292 - csv2ora - INFO - Counting lines in input file...
-2014-11-26 22:51:52,292 - csv2ora - INFO - Done.
-2014-11-26 22:51:52,292 - csv2ora - INFO - Estimated line count: 578
-2014-11-26 22:51:52,292 - csv2ora - INFO - Counting lines in input file...
-2014-11-26 22:51:52,292 - csv2ora - INFO - Done.
-2014-11-26 22:51:52,292 - csv2ora - INFO - Estimated line count: 348
-2014-11-26 22:51:52,292 - csv2ora - WARNING - Overriding num_of_shards 1->3.
-2014-11-26 22:51:52,385 - csv2ora - INFO - Starting Thread-0
-2014-11-26 22:51:52,385 - csv2ora - INFO - Thread-0 processing Shard-0
-2014-11-26 22:51:52,447 - csv2ora - INFO - Loading data...
-2014-11-26 22:51:52,651 - csv2ora - INFO - SQL*Loader status =0
-2014-11-26 22:51:52,667 - csv2ora - INFO - Done.
-2014-11-26 22:51:52,667 - csv2ora - INFO - Thread-0 exit status 0
-2014-11-26 22:51:52,667 - csv2ora - INFO - Thread-0 processing Shard-1
-2014-11-26 22:51:52,729 - csv2ora - INFO - Loading data...
-2014-11-26 22:51:53,042 - csv2ora - INFO - SQL*Loader status =0
-2014-11-26 22:51:53,042 - csv2ora - INFO - Done.
-2014-11-26 22:51:53,042 - csv2ora - INFO - Thread-0 exit status 0
-2014-11-26 22:51:53,042 - csv2ora - INFO - Thread-0 processing Shard-2
-2014-11-26 22:51:53,042 - csv2ora - INFO - Loading data...
-2014-11-26 22:51:54,042 - csv2ora - INFO - SQL*Loader status =0
-2014-11-26 22:51:54,042 - csv2ora - INFO - Done.
-2014-11-26 22:51:54,042 - csv2ora - INFO - Thread-0 exit status 0
-2014-11-26 22:51:54,042 - csv2ora - INFO - Exiting Thread-0
-2014-11-26 22:51:54,042 - csv2ora - INFO - Shard-0/0:        1564 rows
-2014-11-26 22:51:54,042 - csv2ora - INFO - Shard-1/0:         578 rows
-2014-11-26 22:51:54,042 - csv2ora - INFO - Shard-2/0:         348 rows
-2014-11-26 22:51:54,042 - csv2ora - INFO - TOTAL Bytes:      251789 Bytes
-2014-11-26 22:51:54,042 - csv2ora - INFO - TOTAL Rows:         2490 Rows
-2014-11-26 22:51:54,042 - csv2ora - INFO - Done.
-2014-11-26 22:51:54,042 - csv2ora - INFO - Elapsed: 00:00:01
+2014-11-27 15:11:13,857 - csv2ora - INFO - Counting lines in input file...
+2014-11-27 15:11:13,871 - csv2ora - INFO - Done.
+2014-11-27 15:11:13,871 - csv2ora - INFO - Estimated line count: 1565
+2014-11-27 15:11:13,871 - csv2ora - INFO - Counting lines in input file...
+2014-11-27 15:11:13,871 - csv2ora - INFO - Done.
+2014-11-27 15:11:13,871 - csv2ora - INFO - Estimated line count: 578
+2014-11-27 15:11:13,871 - csv2ora - INFO - Counting lines in input file...
+2014-11-27 15:11:13,871 - csv2ora - INFO - Done.
+2014-11-27 15:11:13,871 - csv2ora - INFO - Estimated line count: 348
+2014-11-27 15:11:13,871 - csv2ora - WARNING - Overriding num_of_shards 1->3.
+2014-11-27 15:11:13,871 - csv2ora - INFO - Starting Thread-0
+2014-11-27 15:11:13,871 - csv2ora - INFO - Thread-0 processing Shard-0
+2014-11-27 15:11:13,918 - csv2ora - INFO - Loading data...
+2014-11-27 15:11:13,980 - csv2ora - INFO - SQL*Loader status =0
+2014-11-27 15:11:13,980 - csv2ora - INFO - Done.
+2014-11-27 15:11:13,980 - csv2ora - INFO - Thread-0 exit status 0
+2014-11-27 15:11:13,980 - csv2ora - INFO - Thread-0 processing Shard-1
+2014-11-27 15:11:14,028 - csv2ora - INFO - Loading data...
+2014-11-27 15:11:14,230 - csv2ora - INFO - SQL*Loader status =0
+2014-11-27 15:11:14,230 - csv2ora - INFO - Done.
+2014-11-27 15:11:14,230 - csv2ora - INFO - Thread-0 exit status 0
+2014-11-27 15:11:14,230 - csv2ora - INFO - Thread-0 processing Shard-2
+2014-11-27 15:11:14,230 - csv2ora - INFO - Loading data...
+2014-11-27 15:11:15,043 - csv2ora - INFO - SQL*Loader status =0
+2014-11-27 15:11:15,043 - csv2ora - INFO - Done.
+2014-11-27 15:11:15,043 - csv2ora - INFO - Thread-0 exit status 0
+2014-11-27 15:11:15,043 - csv2ora - INFO - Exiting Thread-0
+2014-11-27 15:11:15,043 - csv2ora - INFO - Shard-0/0:        1564 rows
+2014-11-27 15:11:15,043 - csv2ora - INFO - Shard-1/0:         578 rows
+2014-11-27 15:11:15,043 - csv2ora - INFO - Shard-2/0:         348 rows
+2014-11-27 15:11:15,043 - csv2ora - INFO - TOTAL Bytes:      251789 Bytes
+2014-11-27 15:11:15,043 - csv2ora - INFO - TOTAL Rows:         2490 Rows
+2014-11-27 15:11:15,043 - csv2ora - INFO - Done.
+2014-11-27 15:11:15,043 - csv2ora - INFO - Elapsed: 00:00:01

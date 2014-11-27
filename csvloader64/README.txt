@@ -5,7 +5,7 @@
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
 ----------------------------------------------------------------------
-CSV*Loader for Oracle (v1.23.5, beta, 2014/11/26 22:51:04) [64bit]
+CSV*Loader for Oracle (v1.23.5, beta, 2014/11/27 15:10:54) [64bit]
 Copyright (c): 2014 Alex Buzunov, All rigts reserved.
 Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
 ----------------------------------------------------------------------
@@ -83,7 +83,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 3 ^
   -r 3 ^
@@ -115,7 +115,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 3 ^
   -r 3 ^
@@ -145,7 +145,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -175,7 +175,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -206,7 +206,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -237,7 +237,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -268,7 +268,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -300,7 +300,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 1 ^
   -r 1 ^
@@ -334,7 +334,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 3 ^
   -r 3 ^
@@ -366,7 +366,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 3 ^
   -r 3 ^
@@ -398,7 +398,7 @@ Arguments:
   -m[--nls_timestamp_format] is "nls_timestamp_format for target."
   -Z[--target_client_home] is "Path to Oracle client home bin dir."	
 Example: 
-  echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
+  echo y|c:\Python27\csvloader_dist_64\20141127_151054\csvloader64\csvloader64.exe ^
   -w csv2ora ^
   -o 3 ^
   -r 3 ^
