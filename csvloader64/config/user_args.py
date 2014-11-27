@@ -2,8 +2,33 @@
 
 import datetime
 import os, sys
-ts=datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+from common.v101.loaders import import_module
+e=sys.exit
+inc={}
+inc['DBTAES']=inc['DBTES']=inc['DBTAWS']=inc['DBTWS']=inc[ 'DBTE']=inc['DBTEC']=inc['DBTDE']='db2.py'
+inc['SSENT']=inc['SSEXP']='ss.py'
+inc['TTEN']='tten.py'
+inc['SLITE']='slite.py'
+inc['INFOR']=inc['INFORC']='infor.py'
+inc['SYASE']=inc['SYANY']=inc['SYIQ']='sybase.py'
+inc['ORA']=inc['EXAD']='oracle.py'
+inc['ORAXE']='oraxe.py'
+#print  inc
+
+print args.copy_vector
+
+target=None
+from_db, to_db=args.copy_vector.split('2')
+
+if inc.has_key(to_db.upper()):
+	import __builtin__
+	__builtin__.args = args
+	dmhome=os.path.dirname(os.path.realpath(__file__))
+
+	target = import_module(os.path.join(dmhome,'include',inc[to_db.upper()]))
+
 abspath=os.path.abspath(os.path.dirname(sys.argv[0]))
+ts=datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f')
 logdir=os.path.join(abspath,'logs')
 spooldir=os.path.join(logdir,'data')
 datadir= os.path.join(logdir,ts)

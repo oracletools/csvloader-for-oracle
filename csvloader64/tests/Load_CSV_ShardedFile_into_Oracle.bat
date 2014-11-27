@@ -12,10 +12,10 @@
 ::	-g[--to_db] is "To Oracle database."
 ::	-a[--to_table] is "To Oracle table."
 ::	-e[--nls_date_format] is "nls_date_format for target."
-::	-m[--nls_timestamp_format] is "nls_time_format for target."
+::	-m[--nls_timestamp_format] is "nls_timestamp_format for target."
 ::	-Z[--target_client_home] is "Path to Oracle client home bin dir."	
 
-echo y|csvloader64.exe ^
+echo y|c:\Python27\csvloader_dist_64\20141126_225104\csvloader64\csvloader64.exe ^
 -w csv2ora ^
 -o 3 ^
 -r 3 ^
