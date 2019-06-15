@@ -1,6 +1,6 @@
 ##
-##csvloader32.exe -h ALL 
-
+## csvloader32.exe -h ALL 
+```
 --GENERAL INFO--
 ---------------------------------------------------------------------- 
 #FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
@@ -411,3 +411,13 @@ Example:
   -e "YYYY-MM-DD HH24.MI.SS" ^
   -m "YYYY-MM-DD HH24.MI.SS.FF2" ^
   -Z "C:\app\alex_buz\product\11.2.0\dbhome_2\BIN"
+  ```
+  
+  ## Teardown
+https://github.com/pydemo/teardown
+
+[<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
+
+## Snowpipe
+
+https://github.com/pydemo/Snowpipe-For-SQLServer
